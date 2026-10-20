@@ -1,0 +1,22 @@
+PASS multiple buys weighted average and partial sell
+PASS FX price and currency effects exact decomposition
+PASS split preserves acquisition cost
+PASS disallow sell more than holdings
+PASS dividend net tax and currency conversion
+PASS FX exchange cash flows
+PASS cash deposit and withdrawal not counted as profit
+PASS quote missing does not turn into false zero valuation
+PASS fees folded into basis and net proceeds
+PASS reject nonexistent date
+PASS cash overdraft is warning not accounting corruption
+PASS reject unsafe link scheme
+PASS reject invalid trade quantity
+PASS reject impossible month end
+PASS split sell ordering
+PASS market currency mismatch rejected
+PASS duplicate transaction ID rejected
+PASS dividend tax greater than amount rejected
+PASS stale or invalid quote date prevents valuation
+PASS korean money boundary exact
+PASS small quantity display precision survives in ledger engine
+TOTAL 21 tests passed
